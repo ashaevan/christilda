@@ -1931,10 +1931,10 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
 
 .logo img {
   margin: 0;
-  max-width: 200px;
+  max-width: 300px;
   position: relative;
-  top: 12px;
-  width: 100%;
+  top: 1.2px;
+  width: 200%;
 }
 .top-nav li a {
   color: #fff;
