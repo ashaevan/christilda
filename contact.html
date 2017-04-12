@@ -114,7 +114,7 @@
               <!-- Contact Form -->
               <div class="s-12 m-12 l-6">
                 <h2 class="margin-bottom-10">Leave Message</h2>
-                <form name="contactForm" class="customform" method="post">
+                <form action="mailer.php" name="contactForm" class="customform" method="post">
                   <div class="line">
                     <div class="margin">
                       <div class="s-12 m-12 l-6">
@@ -130,10 +130,6 @@
                    <div class="s-12">
                     <input name="name" class="name" placeholder="Your name" title="Your name" type="text" />
                         <p class="name-error form-error">Please enter your name.</p>
-                  </div>
-                  <div class="s-12">
-                    <input name="subject" class="subject" placeholder="Subject" title="Subject" type="text" />
-                    <p class="subject-error form-error">Please enter the subject.</p>
                   </div>
                   <div class="s-12">
                     <textarea name="message" class="required message" placeholder="Your message" rows="3"></textarea>
